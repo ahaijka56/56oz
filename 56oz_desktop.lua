@@ -1,0 +1,11 @@
+local function clearScreen(color)
+        term.setBackgroundColor(color)
+        term.clear()
+        local function fadeIn(time)
+        clearScreen(colors.gray)
+        sleep(1)
+        clearScreen(colors.lightGray)
+        sleep(1)
+        clearScreen(colors.white)
+        sleep(1)
+end
